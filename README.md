@@ -41,3 +41,9 @@ Send us the project and answer to those simple questions :
 - Which feature did you develop and why ? 
 - Do you have any feedback about the code / architecture of the project and what was the difficulty you encountered while doing it ? 
 
+
+
+## Solved bugs 
+# Can't access to Projects 
+When you click on a project name, you will have an error screen. I can't find the project name (undefined project.name).
+To fix this problem, we have to wait the result of the async method, during this time we let a loader.
