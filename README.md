@@ -47,3 +47,26 @@ Send us the project and answer to those simple questions :
 # Can't access to Projects 
 When you click on a project name, you will have an error screen. I can't find the project name (undefined project.name).
 To fix this problem, we have to wait the result of the async method, during this time we let a loader.
+
+# Can't update User information
+When you add new informations to user and click on update. Toast message said that's update. But when you comeback to user informations, that's not the case.
+To fix this problem, I change the behavior or the button
+
+# Can't connect to new user created by UI
+When you create a new user with the UI. User is created. Then, you logged out and try to log with the new user created. You can't log in because User is not know in the console log. 
+I found that user and password are set in lower case. So this lead to create a "false" account. I simply remove this function to not alterate the authentification process. 
+
+# Reduce query and display user name
+When you display a project, the request start to retrieve all projects from the database but you only need one result because project name are unique.
+When you create a user, and list all users, name of users are not displayed.
+I have noticed that model from database and attributes are not correctly set for user (username != name).
+
+
+## New feature
+I have noticed too that when you are in another user and click on activity, you have the activity of the first user already settle in the calendar. And if you modify this calendar with the new user, that will attribute the work only to the first user. To be align with the business, the "new feature" would be to fix this problem to have a fully functionnal app. I can't resolve this error because lack of time and skills on React. 
+
+## Feedback about the code / architecture of the project and difficulties 
+The code at some point is understable if you master the React framework, and in some file it is completly unreadable.
+The non-typed language doesn't help at all and so the debugging too. 
+
+The code is well structured. I clearly have some facility to navigate and understand how responsability is shared.
