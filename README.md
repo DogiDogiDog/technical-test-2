@@ -63,7 +63,7 @@ I have noticed that model from database and attributes are not correctly set for
 
 
 ## New feature
-I have noticed too that when you are in another user and click on activity, you have the activity of the first user already settle in the calendar. And if you modify this calendar with the new user, that will attribute the work only to the first user. To be align with the business, the "new feature" would be to fix this problem to have a fully functionnal app. I can't resolve this error because lack of time and skills on React. 
+I add a small dashboard that count number of projects, of users, and activities. Add a feed of users from the input activity next time.
 
 ## Feedback about the code / architecture of the project and difficulties 
 The code at some point is understable if you master the React framework, and in some file it is completly unreadable.
